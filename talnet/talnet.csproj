@@ -1,0 +1,89 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Customers\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\%40semantic-ui-react\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\%40stardust-ui\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\classnames\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\create-react-context\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\exenv\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\gud\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\keyboard-key\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\node_modules\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\node_modules\string.prototype.trimleft\string.prototype.trimright\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\node_modules\string.prototype.trimleft\warning\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\popper.js\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\react-popper\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\semantic-ui-react\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\shallowequal\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\typed-styles\**" />
+    <Compile Remove="wwwroot\js\reactjs\node_modules\warning\**" />
+    <Content Remove="Views\Customers\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\%40semantic-ui-react\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\%40stardust-ui\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\classnames\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\create-react-context\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\exenv\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\gud\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\keyboard-key\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\node_modules\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\node_modules\string.prototype.trimleft\string.prototype.trimright\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\node_modules\string.prototype.trimleft\warning\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\popper.js\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\react-popper\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\semantic-ui-react\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\shallowequal\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\typed-styles\**" />
+    <Content Remove="wwwroot\js\reactjs\node_modules\warning\**" />
+    <EmbeddedResource Remove="Views\Customers\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\%40semantic-ui-react\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\%40stardust-ui\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\classnames\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\create-react-context\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\exenv\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\gud\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\keyboard-key\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\node_modules\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\node_modules\string.prototype.trimleft\string.prototype.trimright\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\node_modules\string.prototype.trimleft\warning\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\popper.js\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\react-popper\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\semantic-ui-react\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\shallowequal\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\typed-styles\**" />
+    <EmbeddedResource Remove="wwwroot\js\reactjs\node_modules\warning\**" />
+    <None Remove="Views\Customers\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\%40semantic-ui-react\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\%40stardust-ui\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\classnames\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\create-react-context\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\exenv\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\gud\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\keyboard-key\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\node_modules\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\node_modules\string.prototype.trimleft\string.prototype.trimright\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\node_modules\string.prototype.trimleft\warning\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\popper.js\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\react-popper\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\semantic-ui-react\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\shallowequal\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\typed-styles\**" />
+    <None Remove="wwwroot\js\reactjs\node_modules\warning\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1" />
+  </ItemGroup>
+
+</Project>
